@@ -1,3 +1,5 @@
+
+
 //utilize package we installed
 const prompt = require('prompt-sync')();
 //declare variable
@@ -8,7 +10,7 @@ console.log("Please input your email: \n");
 //evaluates whether email is empty or not
 //if this evaluates to true it means the email is empty and we need to prompt the user again for their email
 while(email == ""){
-    console.log("Please input an email, or I will make you eat fruit cake. \n")
+    console.log("Please input an email, or I will make you eat more fruit cake. \n")
     email = prompt("Input email here: ");
     //after prompting the user again, if email is not empty, thank them and show email
     if(email != ""){
@@ -20,3 +22,9 @@ while(email == ""){
     }
 };
 
+
+
+
+
+
+//danner.tech
