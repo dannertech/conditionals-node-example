@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/dannertech/conditionals-node-example/issues"
   },
-  "homepage": "https://github.com/dannertech/conditionals-node-example#readme"
+  "homepage": "https://github.com/dannertech/conditionals-node-example#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
